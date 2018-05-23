@@ -1,7 +1,7 @@
-const playlist = {artist: 'song'};
+const playlist = {artist: 'songTitle'};
 
-function updatePlaylist(playlist, artist, song){
-   playlist[artist] = 'song';
+function updatePlaylist(playlist, artist, songTitle){
+  playlist[artist] = songTitle;
   return playlist;
 }
 
@@ -9,3 +9,4 @@ function removeFromPlaylist(playlist, artist){
   delete playlist[artist];
   return playlist;
 }
+
